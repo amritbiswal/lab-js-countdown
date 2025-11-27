@@ -26,7 +26,7 @@ function startCountdown() {
 
   // Show toast when countdown starts
   if(remainingTime === DURATION) {
-    showToast("Countdown started! 🚀");
+    showToast("⏰ Final countdown! ⏰");
     // disable start button to prevent multiple clicks
     startButton.disabled = true;
   }
